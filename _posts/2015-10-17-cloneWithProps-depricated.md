@@ -2,7 +2,7 @@
 layout:     post
 title:      React.cloneElement
 date:       2015-10-15 11:21:29
-summary:    cloneWithProps is depricated, but with can use React.cloneElement.
+summary:    React.addons.cloneWithProps is depricated in favour for React.cloneElement.
 categories: javascript react
 ---
 
