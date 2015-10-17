@@ -1,1 +1,1 @@
-git push droplet master
+git push origin master && git push droplet master
