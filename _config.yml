@@ -7,7 +7,7 @@ baseurl:     ""
 url:         "http://emilmork.net/"
 
 # Google analytics
-google_analytics:
+google_analytics: true
 
 # Optional features
 animated:           false
