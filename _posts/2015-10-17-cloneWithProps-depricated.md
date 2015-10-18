@@ -6,14 +6,14 @@ summary:    React.addons.cloneWithProps is depricated in favour for React.cloneE
 categories: javascript react
 ---
 
-React.addons.cloneWithProps has been depricated in favour for [React.cloneElement](https://facebook.github.io/react/docs/top-level-api.html#react.cloneelement). The behavour is
+React.addons.cloneWithProps has been deprecated in favour for [React.cloneElement](https://facebook.github.io/react/docs/top-level-api.html#react.cloneelement). The behaviour is
 almost the same, but cloneElement does not merge className or style.  
 
 ```javascript
 React.cloneElement(element, props, ...children);
 ```
 
-The example below shows how to create a stateless component that centeres all child components with React.cloneElement and Object.assign.
+The example below shows how to create a stateless component that center all child components with React.cloneElement and Object.assign.
 
 
 ```javascript
@@ -55,6 +55,7 @@ export default App;
 ```
 
 [React 0.14 changelog](https://facebook.github.io/react/blog/2015/09/10/react-v0.14-rc1.html)
+
 
 ---
 
