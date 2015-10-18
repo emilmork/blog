@@ -53,7 +53,7 @@ public class SmsModule extends ReactContextBaseJavaModule {
     @ReactMethod
     public void send(String phoneNo, 
                       String sms, 
-                      Callback success, // Callbacks for success 
+                      Callback success, // Callback for success 
                       Callback err) { // Callback for error
         try {
             SmsManager m = SmsManager.getDefault();
