@@ -4,7 +4,7 @@ email:       emil.a.mork@gmail.com
 author:      Emil Mork
 description: "Hi!"
 baseurl:     ""
-url:         "http://localhost:4000"
+url:         "http://emilmork.net/"
 
 # Google analytics
 google_analytics:
