@@ -29,8 +29,6 @@ const Centered = (p) => {
   } </div>
 }
 
-const Title = (p) => <h2 style={styles.text}>{p.children}</h2>
-
 const App = () => {
   return (
       <Centered>
