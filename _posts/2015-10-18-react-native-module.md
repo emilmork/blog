@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      React Native - Modules
-date:       2015-10-15 11:21:29
+date:       2015-10-18 11:21:29
 summary:    How to create a Native SMS module in Android using React Native
 categories: javascript react-native android
 ---
