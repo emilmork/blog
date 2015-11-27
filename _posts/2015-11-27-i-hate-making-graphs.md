@@ -22,13 +22,16 @@ Then I figured the end result was not necessarily what I was searching for. The 
 The main reason: it was too hard to maintain. If you look at the code below you might understand why:
 
 ```javascript
-    .transition()
-        .duration(700)
-        .ease("ease-in")
-        .attr("transform",
-        "translate("+
-            -(x(data[data.length-1].date) - x(data[data.length-2].date))+",0)")
+  .transition()
+    .duration(700)
+    .ease("ease-in")
+    .attr("transform",
+    "translate("+
+        -(x(data[data.length-1].date) - x(data[data.length-2].date))+",0)")
       ...
+  .attr("width", width + margin.left + margin.right)
+  .attr("height", height + margin.top + margin.bottom)
+  .append("g")
 ```
 
 I know. It’s not pretty. I got about **150** lines of code that looked like this. The graph was ugly too!
