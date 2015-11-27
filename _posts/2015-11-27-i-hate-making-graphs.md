@@ -20,6 +20,7 @@ Then I figured the end result was not necessarily what I was searching for. The 
 ### Why it didn't work out
 
 The main reason: it was too hard to maintain. If you look at the code below you might understand why:
+
 ```javascript
     .transition()
         .duration(700)
@@ -28,7 +29,6 @@ The main reason: it was too hard to maintain. If you look at the code below you 
         "translate("+
             -(x(data[data.length-1].date) - x(data[data.length-2].date))+",0)")
       ...
-
 ```
 
 I know. It’s not pretty. I got about **150** lines of code that looked like this. The graph was ugly too!
