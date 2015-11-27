@@ -61,7 +61,7 @@ But I could not find any library that gave me a simple real-time chart. Those I 
 
 #### Then I discovered c3.js
 
-```c3.js```is wrapper on top of d3. It’s open source, widely used, easy to configure and give you a bunch of different graph components. One of the options is the flow API, that lets you create ```real-time``` charts on top of d3 (Which I was looking for).
+```c3.js``` is wrapper on top of d3. It’s open source, widely used, easy to configure and give you a bunch of different graph components. One of the options is the flow API, that lets you create ```real-time``` charts on top of d3 (Which I was looking for).
 
 c3 was easy to use, customizable, and the charts looked nice.
 The code was highly maintainable as well:
