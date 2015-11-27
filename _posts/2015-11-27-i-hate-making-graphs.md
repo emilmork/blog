@@ -28,7 +28,8 @@ The main reason: it was too hard to maintain. If you look at the code below you 
     .attr("transform",
     "translate("+
         -(x(data[data.length-1].date) - x(data[data.length-2].date))+",0)")
-      ...
+  ...
+
   .attr("width", width + margin.left + margin.right)
   .attr("height", height + margin.top + margin.bottom)
   .append("g")
