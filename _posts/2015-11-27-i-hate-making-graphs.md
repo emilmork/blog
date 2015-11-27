@@ -2,7 +2,7 @@
 layout:     post
 title:      I hate making graphs
 date:       2015-11-27 11:21:29
-summary:    
+summary:    Making a real-time graph is hard, especially with d3.
 categories: JavaScript react chart d3 c3
 ---
 
@@ -79,9 +79,7 @@ var chart = c3.generate({
     },
   ...
 ```
-Before the graph code was completely welded into my application I figured I could make a simple React component that others with ```not-adapted-linear-algebra-graph brains``` could use.
-
-> And if you have time, you should always make your code available for others. It’s a win win.
+Before the graph code was completely welded into my application I figured it was a good idea to make a simple React component that others with ```not-adapted-linear-algebra-graph brains``` could use.
 
 ### React component
 I ended up making a react component called react-rt-chart.
@@ -92,14 +90,12 @@ The implementation of the component/library was highly inspired by my own needs:
 - Update the graph with new values
 - Possible to adjust the maximum number of values in the graph
 
-#### Result
+#### The component
 
-Using c3 is painless, and the creating of a simple react component went pretty fast.
+Using c3 was painless, and creating a simple generic react component went pretty fast.
 
-Using the component is fairly easy.
+Using the component is fairly easy and the example below should be pretty clear:
 
-Simple example:
- A graph that is updated every second with two random values for 'Car' and 'Bus'.
 ```javascript
 componentDidMount() {
     setInterval(() => this.forceUpdate(), 1000);
